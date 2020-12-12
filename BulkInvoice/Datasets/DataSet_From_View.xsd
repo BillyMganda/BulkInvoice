@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_From_View" targetNamespace="http://tempuri.org/DataSet_From_View.xsd" xmlns:mstns="http://tempuri.org/DataSet_From_View.xsd" xmlns="http://tempuri.org/DataSet_From_View.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mysetting" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mysetting (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BulkInvoice.Properties.Settings.GlobalReference.Default.mysetting" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="WIZ_BulkInvoice_InvoicesTableAdapter" GeneratorDataComponentClassName="WIZ_BulkInvoice_InvoicesTableAdapter" Name="WIZ_BulkInvoice_Invoices" UserDataComponentName="WIZ_BulkInvoice_InvoicesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mysetting (Settings)" DbObjectName="ESL_LTD.dbo.WIZ_BulkInvoice_Invoices" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT iLineID, Code, iInvoiceID, cDescription, fQuantity, fUnitPriceExcl, fUnitPriceIncl, AutoIndex, InvDate, InvDiscAmnt, InvTotExclDEx, InvTotTax, InvTotInclDEx, Account, Name, Post1, Physical1, Tax_Number, EMail, InvNumber, fLineDiscount, CurrencyCode, Description, cLineNotes FROM dbo.WIZ_BulkInvoice_Invoices</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="iLineID" DataSetColumn="iLineID" />
+              <Mapping SourceColumn="Code" DataSetColumn="Code" />
+              <Mapping SourceColumn="iInvoiceID" DataSetColumn="iInvoiceID" />
+              <Mapping SourceColumn="cDescription" DataSetColumn="cDescription" />
+              <Mapping SourceColumn="fQuantity" DataSetColumn="fQuantity" />
+              <Mapping SourceColumn="fUnitPriceExcl" DataSetColumn="fUnitPriceExcl" />
+              <Mapping SourceColumn="fUnitPriceIncl" DataSetColumn="fUnitPriceIncl" />
+              <Mapping SourceColumn="AutoIndex" DataSetColumn="AutoIndex" />
+              <Mapping SourceColumn="InvDate" DataSetColumn="InvDate" />
+              <Mapping SourceColumn="InvDiscAmnt" DataSetColumn="InvDiscAmnt" />
+              <Mapping SourceColumn="InvTotExclDEx" DataSetColumn="InvTotExclDEx" />
+              <Mapping SourceColumn="InvTotTax" DataSetColumn="InvTotTax" />
+              <Mapping SourceColumn="InvTotInclDEx" DataSetColumn="InvTotInclDEx" />
+              <Mapping SourceColumn="Account" DataSetColumn="Account" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Post1" DataSetColumn="Post1" />
+              <Mapping SourceColumn="Physical1" DataSetColumn="Physical1" />
+              <Mapping SourceColumn="Tax_Number" DataSetColumn="Tax_Number" />
+              <Mapping SourceColumn="EMail" DataSetColumn="EMail" />
+              <Mapping SourceColumn="InvNumber" DataSetColumn="InvNumber" />
+              <Mapping SourceColumn="fLineDiscount" DataSetColumn="fLineDiscount" />
+              <Mapping SourceColumn="CurrencyCode" DataSetColumn="CurrencyCode" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="cLineNotes" DataSetColumn="cLineNotes" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_From_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_From_View" msprop:Generator_UserDSName="DataSet_From_View">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WIZ_BulkInvoice_Invoices" msprop:Generator_TableClassName="WIZ_BulkInvoice_InvoicesDataTable" msprop:Generator_TableVarName="tableWIZ_BulkInvoice_Invoices" msprop:Generator_TablePropName="WIZ_BulkInvoice_Invoices" msprop:Generator_RowDeletingName="WIZ_BulkInvoice_InvoicesRowDeleting" msprop:Generator_RowChangingName="WIZ_BulkInvoice_InvoicesRowChanging" msprop:Generator_RowEvHandlerName="WIZ_BulkInvoice_InvoicesRowChangeEventHandler" msprop:Generator_RowDeletedName="WIZ_BulkInvoice_InvoicesRowDeleted" msprop:Generator_UserTableName="WIZ_BulkInvoice_Invoices" msprop:Generator_RowChangedName="WIZ_BulkInvoice_InvoicesRowChanged" msprop:Generator_RowEvArgName="WIZ_BulkInvoice_InvoicesRowChangeEvent" msprop:Generator_RowClassName="WIZ_BulkInvoice_InvoicesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="iLineID" msprop:Generator_ColumnVarNameInTable="columniLineID" msprop:Generator_ColumnPropNameInRow="iLineID" msprop:Generator_ColumnPropNameInTable="iLineIDColumn" msprop:Generator_UserColumnName="iLineID" type="xs:int" />
+              <xs:element name="Code" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="400" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iInvoiceID" msprop:Generator_ColumnVarNameInTable="columniInvoiceID" msprop:Generator_ColumnPropNameInRow="iInvoiceID" msprop:Generator_ColumnPropNameInTable="iInvoiceIDColumn" msprop:Generator_UserColumnName="iInvoiceID" type="xs:int" />
+              <xs:element name="cDescription" msprop:Generator_ColumnVarNameInTable="columncDescription" msprop:Generator_ColumnPropNameInRow="cDescription" msprop:Generator_ColumnPropNameInTable="cDescriptionColumn" msprop:Generator_UserColumnName="cDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fQuantity" msprop:Generator_ColumnVarNameInTable="columnfQuantity" msprop:Generator_ColumnPropNameInRow="fQuantity" msprop:Generator_ColumnPropNameInTable="fQuantityColumn" msprop:Generator_UserColumnName="fQuantity" type="xs:double" minOccurs="0" />
+              <xs:element name="fUnitPriceExcl" msprop:Generator_ColumnVarNameInTable="columnfUnitPriceExcl" msprop:Generator_ColumnPropNameInRow="fUnitPriceExcl" msprop:Generator_ColumnPropNameInTable="fUnitPriceExclColumn" msprop:Generator_UserColumnName="fUnitPriceExcl" type="xs:double" minOccurs="0" />
+              <xs:element name="fUnitPriceIncl" msprop:Generator_ColumnVarNameInTable="columnfUnitPriceIncl" msprop:Generator_ColumnPropNameInRow="fUnitPriceIncl" msprop:Generator_ColumnPropNameInTable="fUnitPriceInclColumn" msprop:Generator_UserColumnName="fUnitPriceIncl" type="xs:double" minOccurs="0" />
+              <xs:element name="AutoIndex" msprop:Generator_ColumnVarNameInTable="columnAutoIndex" msprop:Generator_ColumnPropNameInRow="AutoIndex" msprop:Generator_ColumnPropNameInTable="AutoIndexColumn" msprop:Generator_UserColumnName="AutoIndex" type="xs:int" />
+              <xs:element name="InvDate" msprop:Generator_ColumnVarNameInTable="columnInvDate" msprop:Generator_ColumnPropNameInRow="InvDate" msprop:Generator_ColumnPropNameInTable="InvDateColumn" msprop:Generator_UserColumnName="InvDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="InvDiscAmnt" msprop:Generator_ColumnVarNameInTable="columnInvDiscAmnt" msprop:Generator_ColumnPropNameInRow="InvDiscAmnt" msprop:Generator_ColumnPropNameInTable="InvDiscAmntColumn" msprop:Generator_UserColumnName="InvDiscAmnt" type="xs:double" minOccurs="0" />
+              <xs:element name="InvTotExclDEx" msprop:Generator_ColumnVarNameInTable="columnInvTotExclDEx" msprop:Generator_ColumnPropNameInRow="InvTotExclDEx" msprop:Generator_ColumnPropNameInTable="InvTotExclDExColumn" msprop:Generator_UserColumnName="InvTotExclDEx" type="xs:double" minOccurs="0" />
+              <xs:element name="InvTotTax" msprop:Generator_ColumnVarNameInTable="columnInvTotTax" msprop:Generator_ColumnPropNameInRow="InvTotTax" msprop:Generator_ColumnPropNameInTable="InvTotTaxColumn" msprop:Generator_UserColumnName="InvTotTax" type="xs:double" minOccurs="0" />
+              <xs:element name="InvTotInclDEx" msprop:Generator_ColumnVarNameInTable="columnInvTotInclDEx" msprop:Generator_ColumnPropNameInRow="InvTotInclDEx" msprop:Generator_ColumnPropNameInTable="InvTotInclDExColumn" msprop:Generator_UserColumnName="InvTotInclDEx" type="xs:double" minOccurs="0" />
+              <xs:element name="Account" msprop:Generator_ColumnVarNameInTable="columnAccount" msprop:Generator_ColumnPropNameInRow="Account" msprop:Generator_ColumnPropNameInTable="AccountColumn" msprop:Generator_UserColumnName="Account" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Post1" msprop:Generator_ColumnVarNameInTable="columnPost1" msprop:Generator_ColumnPropNameInRow="Post1" msprop:Generator_ColumnPropNameInTable="Post1Column" msprop:Generator_UserColumnName="Post1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Physical1" msprop:Generator_ColumnVarNameInTable="columnPhysical1" msprop:Generator_ColumnPropNameInRow="Physical1" msprop:Generator_ColumnPropNameInTable="Physical1Column" msprop:Generator_UserColumnName="Physical1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tax_Number" msprop:Generator_ColumnVarNameInTable="columnTax_Number" msprop:Generator_ColumnPropNameInRow="Tax_Number" msprop:Generator_ColumnPropNameInTable="Tax_NumberColumn" msprop:Generator_UserColumnName="Tax_Number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMail" msprop:Generator_ColumnVarNameInTable="columnEMail" msprop:Generator_ColumnPropNameInRow="EMail" msprop:Generator_ColumnPropNameInTable="EMailColumn" msprop:Generator_UserColumnName="EMail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InvNumber" msprop:Generator_ColumnVarNameInTable="columnInvNumber" msprop:Generator_ColumnPropNameInRow="InvNumber" msprop:Generator_ColumnPropNameInTable="InvNumberColumn" msprop:Generator_UserColumnName="InvNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fLineDiscount" msprop:Generator_ColumnVarNameInTable="columnfLineDiscount" msprop:Generator_ColumnPropNameInRow="fLineDiscount" msprop:Generator_ColumnPropNameInTable="fLineDiscountColumn" msprop:Generator_UserColumnName="fLineDiscount" type="xs:double" minOccurs="0" />
+              <xs:element name="CurrencyCode" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCurrencyCode" msprop:Generator_ColumnPropNameInRow="CurrencyCode" msprop:Generator_ColumnPropNameInTable="CurrencyCodeColumn" msprop:Generator_UserColumnName="CurrencyCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cLineNotes" msprop:Generator_ColumnVarNameInTable="columncLineNotes" msprop:Generator_ColumnPropNameInRow="cLineNotes" msprop:Generator_ColumnPropNameInTable="cLineNotesColumn" msprop:Generator_UserColumnName="cLineNotes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WIZ_BulkInvoice_Invoices" />
+      <xs:field xpath="mstns:AutoIndex" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

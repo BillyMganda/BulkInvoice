@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkInvoice", "BulkInvoice\BulkInvoice.csproj", "{98448D2F-DBB6-4038-A496-81CCD9266827}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Bulkinvoice Setup", "Bulkinvoice Setup\Bulkinvoice Setup.vdproj", "{0256EEA2-3CF6-42A8-8D1E-75EF6DB60FF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98448D2F-DBB6-4038-A496-81CCD9266827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98448D2F-DBB6-4038-A496-81CCD9266827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98448D2F-DBB6-4038-A496-81CCD9266827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98448D2F-DBB6-4038-A496-81CCD9266827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0256EEA2-3CF6-42A8-8D1E-75EF6DB60FF5}.Debug|Any CPU.ActiveCfg = Debug
+		{0256EEA2-3CF6-42A8-8D1E-75EF6DB60FF5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C08596B-F16D-44FF-834A-AB62D8606820}
+	EndGlobalSection
+EndGlobal
